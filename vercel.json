@@ -1,0 +1,16 @@
+{
+  "buildCommand": "cd apps/web && npm install && npm run build",
+  "outputDirectory": "apps/web/.next",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_API_URL": {
+      "description": "Backend API URL",
+      "value": "https://loopli-crm-api.onrender.com"
+    },
+    "NEXT_PUBLIC_APP_URL": {
+      "description": "Frontend URL",
+      "value": "https://loopli-crm.vercel.app"
+    }
+  }
+}
